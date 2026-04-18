@@ -12,6 +12,7 @@ Real-time computer vision system that detects and counts fingers using Python, O
 - Real-time hand detection
 - Finger counting
 - Works under different conditions
+- Includes hand detection and finger counting for multiple hands
 
 ## How to Run
 ```bash
