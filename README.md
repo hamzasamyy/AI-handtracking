@@ -1,2 +1,20 @@
 # AI-handtracking
-Real-time hand tracking system using Python, OpenCV, and MediaPipe to detect and count fingers with high accuracy.
+# AI Hand Tracker
+
+## Description
+Real-time computer vision system that detects and counts fingers using Python, OpenCV, and MediaPipe.
+
+## Technologies
+- Python
+- OpenCV (cv2)
+- MediaPipe
+
+## Features
+- Real-time hand detection
+- Finger counting
+- Works under different conditions
+
+## How to Run
+```bash
+pip install opencv-python mediapipe
+python main.py
