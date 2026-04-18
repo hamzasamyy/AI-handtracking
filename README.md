@@ -1,7 +1,7 @@
-# 🤖 Multi-Hand AI Finger Tracking System
+# 🤖 Multi-Hand Hand Tracking & Gesture Recognition System
 
 ## 🚀 Overview
-A real-time computer vision system that detects multiple hands, identifies left and right hands, and counts the number of raised fingers using Python, OpenCV, and MediaPipe.
+A real-time computer vision system that detects multiple hands, identifies left and right hands, counts raised fingers, and recognizes hand gestures using Python, OpenCV, and MediaPipe.
 
 ---
 
@@ -10,6 +10,10 @@ A real-time computer vision system that detects multiple hands, identifies left 
 - 🖐️ Multi-hand tracking (up to 2 hands)  
 - 🔍 Left & Right hand identification  
 - 🔢 Finger counting for each hand  
+- 🤖 Gesture recognition:
+  - 👍 Thumbs Up  
+  - ✌️ Peace  
+  - ✋ Open Hand  
 - ⚡ Smooth real-time performance  
 - 🌍 Works under different lighting conditions  
 
@@ -28,8 +32,9 @@ A real-time computer vision system that detects multiple hands, identifies left 
 AI-handtracking/
 │
 ├── hand_tracker_basic.py        # Basic hand detection
-├── multi_hand_finger_tracker.py # Multi-hand + finger counting
-└── README.md
+├── multi_hand_finger_tracker.py # Finger counting (multi-hand)
+├── gesture_recognition.py       # Gesture recognition system
+├── README.md
 ```
 
 ---
@@ -48,7 +53,52 @@ pip install opencv-python mediapipe
 python hand_tracker_basic.py
 ```
 
-**Advanced (multi-hand + finger counting):**
+**Finger counting:**
 ```bash
 python multi_hand_finger_tracker.py
 ```
+
+**Gesture recognition:**
+```bash
+python gesture_recognition.py
+```
+
+---
+
+## 📸 Demo
+(Add a screenshot here)
+
+```markdown
+![Demo](screenshot.png)
+```
+
+---
+
+## 🧩 How It Works
+- MediaPipe detects 21 hand landmarks in real time  
+- The system analyzes landmark positions to determine:
+  - Hand orientation (Left / Right)  
+  - Finger states (for counting)  
+  - Gesture patterns (based on finger combinations)  
+- Uses spatial relationships between landmarks for accurate detection  
+
+---
+
+## 💡 Future Improvements
+- 🎨 Add UI overlays and bounding boxes  
+- 🤖 Add more gestures (rock, OK sign, etc.)  
+- 🔌 Arduino / hardware integration  
+- 📊 Improve detection accuracy using angle-based methods  
+
+---
+
+## 👨‍💻 Author
+Hamza Muhammad Samy Aly Hassanein  
+📧 hamzasamy54@gmail.com  
+🔗 https://www.linkedin.com/in/hamza-samy-161a74356  
+💻 https://github.com/hamzasamyy  
+
+---
+
+## ⭐ If you like this project
+Give it a ⭐ on GitHub!
