@@ -1,5 +1,4 @@
-# AI-handtracking
-# AI Hand Tracker
+# AI Hand and Finger Tracker
 
 ## Description
 Real-time computer vision system that detects and counts fingers using Python, OpenCV, and MediaPipe.
