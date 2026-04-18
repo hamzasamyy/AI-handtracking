@@ -24,12 +24,13 @@ A real-time computer vision system that detects multiple hands, identifies left 
 
 ## 📂 Project Structure
 
+```text
 AI-handtracking/
 │
 ├── hand_tracker_basic.py        # Basic hand detection
 ├── multi_hand_finger_tracker.py # Multi-hand + finger counting
-├── README.md
-
+└── README.md
+```
 
 ---
 
