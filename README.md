@@ -17,4 +17,9 @@ Real-time computer vision system that detects and counts fingers using Python, O
 ## How to Run
 ```bash
 pip install opencv-python mediapipe
-python main.py
+
+# Run basic hand tracking
+python hand_tracker_basic.py
+
+# Run advanced finger counting (multiple hands)
+python multi_hand_finger_tracker.py
