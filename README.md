@@ -65,15 +65,6 @@ python gesture_recognition.py
 
 ---
 
-## 📸 Demo
-(Add a screenshot here)
-
-```markdown
-![Demo](screenshot.png)
-```
-
----
-
 ## 🧩 How It Works
 - MediaPipe detects 21 hand landmarks in real time  
 - The system analyzes landmark positions to determine:
