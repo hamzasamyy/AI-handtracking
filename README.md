@@ -39,3 +39,16 @@ AI-handtracking/
 ### 1. Install dependencies
 ```bash
 pip install opencv-python mediapipe
+```
+
+### 2. Run the project
+
+**Basic hand tracking:**
+```bash
+python hand_tracker_basic.py
+```
+
+**Advanced (multi-hand + finger counting):**
+```bash
+python multi_hand_finger_tracker.py
+```
